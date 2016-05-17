@@ -1,10 +1,10 @@
-package com.mymvc.route;
+package top.ssnoodles.route;
 
 import java.lang.reflect.Method;
 
 /**
  * 路由
- * Created by Administrator on 2016/5/16.
+ * Created by ssnoodles on 2016/5/16.
  */
 public class Route {
     /**
