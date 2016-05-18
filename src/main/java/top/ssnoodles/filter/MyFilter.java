@@ -115,7 +115,19 @@ public class MyFilter implements Filter {
      * @return
      */
     private Object[] getArgs(Request request, Response response, Class<?>[] parameterTypes) {
-        
+        int length = parameterTypes.length;
+        Object[] objects = new Object[length];
+
+        for (int i = 0; i < length; i++){
+            Class<?> parameterClazz = parameterTypes[i];
+            if (parameterClazz.getName().equals(request.getClass().getName())){
+                objects[i] = request;
+            }
+            if (parameterClazz.getName().equals(response.getClass().getName())){
+                objects[i] = response;
+            }
+        }
+        return objects;
     }
 
     @Override
