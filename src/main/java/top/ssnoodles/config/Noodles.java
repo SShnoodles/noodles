@@ -1,5 +1,6 @@
 package top.ssnoodles.config;
 
+import top.ssnoodles.render.JspRender;
 import top.ssnoodles.render.Render;
 import top.ssnoodles.util.ConfigLoader;
 import top.ssnoodles.route.Routes;
@@ -90,7 +91,7 @@ public final class Noodles {
     private Noodles() {
         routes = new Routes();
         configLoader = new ConfigLoader();
-        render = new Render();
+        render = new JspRender();
     }
     private static class NoodlesHolder{
         private static Noodles ME = new Noodles();

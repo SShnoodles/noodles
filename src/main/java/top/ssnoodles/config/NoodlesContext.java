@@ -25,5 +25,34 @@ public class NoodlesContext {
         marioContext.response = response;
         CONTEXT_THREAD_LOCAL.set(marioContext);
     }
+    public static NoodlesContext me(){
+        return CONTEXT_THREAD_LOCAL.get();
+    }
+    public static void remove(){
+        CONTEXT_THREAD_LOCAL.remove();
+    }
 
+    public ServletContext getServletContext() {
+        return servletContext;
+    }
+
+    public void setServletContext(ServletContext servletContext) {
+        this.servletContext = servletContext;
+    }
+
+    public Request getRequest() {
+        return request;
+    }
+
+    public void setRequest(Request request) {
+        this.request = request;
+    }
+
+    public Response getResponse() {
+        return response;
+    }
+
+    public void setResponse(Response response) {
+        this.response = response;
+    }
 }
