@@ -3,9 +3,6 @@ package top.ssnoodles.util;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import static java.lang.Enum.valueOf;
-import static javafx.scene.input.KeyCode.T;
-
 /**
  * 反射工具
  * Created by ssnoodles on 2016/5/17.
