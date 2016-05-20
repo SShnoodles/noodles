@@ -19,11 +19,11 @@ public class NoodlesContext {
     private NoodlesContext() {
     }
     public static void initContext(ServletContext context, Request request, Response response) {
-        NoodlesContext marioContext = new NoodlesContext();
-        marioContext.servletContext = context;
-        marioContext.request = request;
-        marioContext.response = response;
-        CONTEXT_THREAD_LOCAL.set(marioContext);
+        NoodlesContext noodlesContext = new NoodlesContext();
+        noodlesContext.servletContext = context;
+        noodlesContext.request = request;
+        noodlesContext.response = response;
+        CONTEXT_THREAD_LOCAL.set(noodlesContext);
     }
     public static NoodlesContext me(){
         return CONTEXT_THREAD_LOCAL.get();
