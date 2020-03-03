@@ -1,4 +1,4 @@
-package top.ssnoodles.db;
+package cc.ssnoodles.db;
 
 import org.sql2o.Connection;
 import org.sql2o.Query;

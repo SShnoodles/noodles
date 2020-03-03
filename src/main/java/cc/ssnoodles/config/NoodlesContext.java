@@ -1,7 +1,7 @@
-package top.ssnoodles.config;
+package cc.ssnoodles.config;
 
-import top.ssnoodles.wrapper.Request;
-import top.ssnoodles.wrapper.Response;
+import cc.ssnoodles.wrapper.Request;
+import cc.ssnoodles.wrapper.Response;
 
 import javax.servlet.ServletContext;
 

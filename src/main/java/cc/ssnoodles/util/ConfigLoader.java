@@ -1,4 +1,4 @@
-package top.ssnoodles.util;
+package cc.ssnoodles.util;
 
 import java.io.FileInputStream;
 import java.io.IOException;

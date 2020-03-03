@@ -1,4 +1,4 @@
-package top.ssnoodles.wrapper;
+package cc.ssnoodles.wrapper;
 
 import javax.servlet.http.HttpServletRequest;
 

@@ -1,8 +1,8 @@
-package top.ssnoodles.render;
+package cc.ssnoodles.render;
 
-import top.ssnoodles.config.Const;
-import top.ssnoodles.config.Noodles;
-import top.ssnoodles.config.NoodlesContext;
+import cc.ssnoodles.config.Const;
+import cc.ssnoodles.config.Noodles;
+import cc.ssnoodles.config.NoodlesContext;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

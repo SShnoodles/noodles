@@ -1,11 +1,11 @@
-package top.ssnoodles.config;
+package cc.ssnoodles.config;
 
-import top.ssnoodles.render.JspRender;
-import top.ssnoodles.render.Render;
-import top.ssnoodles.util.ConfigLoader;
-import top.ssnoodles.route.Routes;
-import top.ssnoodles.wrapper.Request;
-import top.ssnoodles.wrapper.Response;
+import cc.ssnoodles.route.Routes;
+import cc.ssnoodles.util.ConfigLoader;
+import cc.ssnoodles.render.JspRender;
+import cc.ssnoodles.render.Render;
+import cc.ssnoodles.wrapper.Request;
+import cc.ssnoodles.wrapper.Response;
 
 import java.lang.reflect.Method;
 

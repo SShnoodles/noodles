@@ -1,7 +1,7 @@
-package top.ssnoodles.wrapper;
+package cc.ssnoodles.wrapper;
 
-import top.ssnoodles.config.Noodles;
-import top.ssnoodles.render.Render;
+import cc.ssnoodles.config.Noodles;
+import cc.ssnoodles.render.Render;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;

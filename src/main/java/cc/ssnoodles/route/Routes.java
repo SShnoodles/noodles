@@ -1,4 +1,4 @@
-package top.ssnoodles.route;
+package cc.ssnoodles.route;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

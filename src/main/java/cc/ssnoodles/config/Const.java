@@ -1,4 +1,4 @@
-package top.ssnoodles.config;
+package cc.ssnoodles.config;
 
 /**
  * 常量类

@@ -1,6 +1,6 @@
-package top.ssnoodles.route;
+package cc.ssnoodles.route;
 
-import top.ssnoodles.util.PathUtil;
+import cc.ssnoodles.util.PathUtil;
 
 import java.net.URI;
 import java.net.URISyntaxException;

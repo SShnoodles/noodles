@@ -1,4 +1,4 @@
-package top.ssnoodles.render;
+package cc.ssnoodles.render;
 
 import java.io.Writer;
 

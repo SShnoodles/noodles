@@ -1,4 +1,4 @@
-package top.ssnoodles.util;
+package cc.ssnoodles.util;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;

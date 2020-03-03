@@ -1,4 +1,4 @@
-package top.ssnoodles.util;
+package cc.ssnoodles.util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
